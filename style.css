@@ -32,6 +32,7 @@ h1{
 h2{
     font-size: 48px;
     font-weight: 400;
+    line-height: 190%
 }
 button{
     all: unset;
@@ -144,6 +145,8 @@ button{
 }
 .training-container{
     display: flex;
+    gap: 1rem;
+    padding: 120px 0;
 }
 .training-section{
     background-color: var(--light-grey);
@@ -151,20 +154,103 @@ button{
 .training-heading{
     /* display: flex; */
     position: relative;
-    border: #2B2B2B 1px solid;
-    width: 30%;
+    width: 123%;
 }
 .training-heading>h2>span{
     font-family: 'Poetsen One', sans-serif;                                              
     color: var(--green);
 }
 .tHeading{
-    /* position: relative; */
-    display: inline-block;
+    padding-top: 15px;
 }
 .tImg{
-    /* position: absolute; */
-    float: top;
-    width: fit-content;
-    /* border: #2B2B2B 1px solid; */
+    float: right;
+    /* -webkit-clip-path: polygon(50% 4%, 72% 40%, 91% 85%, 62% 92%, 25% 97%, 27% 41%, 30% 9%); */
+    clip-path: polygon(50% 4%, 72% 40%, 91% 85%, 62% 92%, 25% 97%, 27% 41%, 30% 9%);
+    /* shape-outside: circle(50%); */
+    /* border: 2px solid red; */
+}
+.program-details{
+    background-color: var(--dark);
+    padding: 20px 38px;
+    gap: 1.5rem;
+    border-radius: 10.3622px;
+}
+.card{
+   display: flex; 
+   flex-direction: column;
+   gap: 15px;
+   padding: 1rem 1rem 2rem 1rem;
+   color: var(--white);
+   opacity: 0.8;
+
+}
+.card:hover{
+    background-color: var(--green);
+    box-shadow: 25.9055px 25.9055px 34.5407px rgba(0, 0, 0, 0.25);
+    border-radius: 5.1811px;
+    color: var(--black);
+}
+.rightchoice{
+    align-items: center;
+    justify-content: space-between;
+    gap: 188px;
+}
+.arrows{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px,240px));
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.farrow{
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--black);
+}
+.lbtn{
+    margin-top: 48px;
+    gap: 10px;
+    align-items: center;
+}
+.lbtn>a{
+    color: var(--white);
+}
+.fpara{
+    margin: 20px 0 48px 0;
+}
+.bigChange{
+    padding: 80px 0;
+    align-items: center;
+    gap: 124px;
+}
+.cAside{
+    width: 50%;
+}
+.profTrainer{
+    background-color: #325462;
+    padding: 60px;
+}
+.tCard{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.fCards{
+    gap: 30px;
+    justify-content: space-between;
+    margin: 60px auto;
+    color: var(--white);
+}
+.iFlex{
+    gap: 10px;
+}
+.tCard>p{
+    padding: 8px;
+}
+.tCard>h3{
+    padding-top: 8px;
 }
