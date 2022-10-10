@@ -13,8 +13,8 @@
     <link href="http://fonts.cdnfonts.com/css/poetsen-one" rel="stylesheet">
 </head>
 
-<body>
-    <header>
+<body class="web-container">
+    <header class="web-container">
         <div class="header">
             <div class="container navbar flex  justify-between">
                 <img src="./Assets/logo.png" alt="">
@@ -29,7 +29,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="web-container">
         <section class="hero-section">
             <div class="hero-container flex hero justify-between hero">
                 <aside class="hero-content">
@@ -132,13 +132,13 @@
                         <img src="./Assets/arrow-left wh.png" alt="">
                     </button>
                 </aside>
-                <div><img src="./Assets/t.png" alt=""></div>
+                <div class="girl"><img src="./Assets/t.png" alt=""></div>
             </div>
         </section>
         <section class="profTrainer">
-            <div class="container">
-                <h2>Professional <span>Trainer</span></h2>
-                <p>In the simplest terms, a professional trainer is essentially a teacher who works in a corporate setting.</p>
+            <div class="container prof-container">
+                <h2>Professional <span class="t">Trainer</span></h2>
+                <p>In the simplest terms, a professional trainer is essentially a <br> teacher who works in a corporate setting.</p>
                 <div class="flex fCards"> 
                     <div class="flex tCard">
                         <div><img src="./Assets/professional trainer 1.png" alt=""></div>
@@ -181,8 +181,96 @@
                         </div>
                     </div>
                 </div>
+                <button class="flex btn viewAll">
+                    <a href="">VIEW ALL</a>
+                    <img src="./Assets/white-arrow-left.png" alt="">
+                </button>
             </div>
         </section>
+        <section class="gallery gal-container">
+            <h2>Our <span>Gallery</span> </h2>
+            <p>View our gallery for fitness videos and fitness event held by Gold's Gym India.
+                the simplest terms, a professional trainer is essentially .</p>
+            <div class="galGrid">
+                <figure><img class="galItem" src="./Assets/g1.png" alt=""></figure>
+                <figure><img class="galItem" src="./Assets/g2.png" alt=""></figure>
+                <figure><img class="galItem" src="./Assets/g3.png" alt=""></figure>
+                <figure><img class="galItem" src="./Assets/g4.png" alt=""></figure>
+                <figure><img class="galItem" src="./Assets/g5.png" alt=""></figure>
+            </div>
+            <div class="galGrid">
+                <figure><img class="galItem" src="./Assets/g6.png" alt=""></figure>
+                <figure><img class="galItem" src="./Assets/g7.png" alt=""></figure>
+                <figure><img class="galItem" src="./Assets/g8.png" alt=""></figure>
+                <figure><img class="galItem" src="./Assets/g9.png" alt=""></figure>
+            </div>
+            <button class="flex btn viewAll"><a href="">SEE MORE</a><img src="./Assets/arrow-up-right.png" alt=""></button>
+        </section>
+        <section class="testimonials">
+            <div class="testimonials-container flex container">
+                <div><img src="./Assets/testimonials image.png" alt=""></div>
+                <div class="testContent">
+                    <div class="testHeading flex">
+                        <h2>Testimonials</h2>
+                        <div class="testArrows flex">
+                            <div><img src="./Assets/arrow-left-white.png" alt=""></div>
+                            <div><img src="./Assets/arrow-right-grey.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="testCard">
+                        <h3 class="BS">Brooklyn Simmons</h3>
+                        <h4 class="SG">Sports Girl Shacket</h4>
+                        <p class="pp">has been awesome to me. Their trainers are exceptional, the overall vibe is
+                            great and I have had nothing but good experiences. I definitely recommend
+                            them to my friends and family.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer container flex">
+                <div class="foot flex add">
+                    <div><img src="./Assets/logo.png" alt=""></div>
+                    <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    <div class="flex">
+                        <div><img src="./Assets/instagrammf.png" alt=""></div>
+                        <div><img src="./Assets/facebookmf.png" alt=""></div>
+                        <div><img src="./Assets/youtube mf.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="foot flex">
+                    <h4>About</h4>
+                    <a href="">About us</a>
+                    <a href="">Features</a>
+                    <a href="">News</a>
+                    <a href="">Plans</a>
+                </div>
+                <div class="foot flex">
+                    <h4>Membership</h4>
+                    <a href="">Why Tripy</a>
+                    <a href="">Partner with us</a>
+                    <a href="">FAQ</a>
+                    <a href="">Blog</a>
+                </div>
+                <div class="foot flex">
+                    <h4>Support</h4>
+                    <a href="">Account</a>
+                    <a href="">Support center</a>
+                    <a href="">Feedback</a>
+                    <a href="">Contact us</a>
+                </div>
+                <div class="foot flex add">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe our newsletter and get exciteing offers</p>
+                    <div class="input">
+                        <input type="text" placeholder="Enter your email address">
+                        <div class="send"><img src="./Assets/Send button.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
     </main>
 
 </body>
